@@ -46,7 +46,7 @@ En esta carpeta se tienen los case class de acuero a la serializacion de los req
 ## Build play
 ### Compilar el proyecto de play
 Para compilar se debe de ejecutar el siguiente comando:
-* sbt dist
+* ``` sbt dist ```.
 De la carpeta ``` /cdmx-rest-api/target/universal ``` copiar el archivo ``` cdmx-rest-api-1.0-SNAPSHOT.zip ``` y descomprimirlo y colocarlo en una ubicación cercana al ``` Dockerfile ```, ya que el dockerfile necesita del contenido de ese archivo descomprimido para hacer el build.
 
 Para ejecutar de modo desarrollo se recomiendo importarlo en ide como idea y ejecutar sbt run, y probar la aplicación.
