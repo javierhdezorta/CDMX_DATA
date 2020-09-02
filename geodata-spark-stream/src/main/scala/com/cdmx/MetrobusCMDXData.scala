@@ -67,7 +67,7 @@ object MetrobusCMDXData{
           println("entro ------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
           // se ecribe la nueva info en postgres sink
           val prop = getProps
-          //cdmxDataDF.write.mode(SaveMode.Append).jdbc(POSTGRES_JDBC_URI,POSTGRES_TABLE,prop)
+          cdmxDataDF.write.mode(SaveMode.Append).jdbc(POSTGRES_JDBC_URI,POSTGRES_TABLE,prop)
         }
       }
     })
